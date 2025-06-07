@@ -1,0 +1,15 @@
+{
+  "originHash" : "6b9f924eef494b3ce9842ededc000b4de19a3e33c16b1d568e27f849b2989df3",
+  "pins" : [
+    {
+      "identity" : "moyasar-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/moyasar/moyasar-ios-sdk",
+      "state" : {
+        "branch" : "master",
+        "revision" : "bc9d806c5ba22e26f935943373c6d6a8663c7be8"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,53 @@
+//
+//  Localizable.strings
+//  Cora App
+//
+//  Created by Mohammed Alsayed on 02/03/2025.
+//
+
+"Sign-Up" = "Sign Up";
+"Login" = "Login";
+"Change Language" = "Change Language";
+"Welcome" = "Welcome to Cora App";
+"Hello" = "Hello";
+"waiting_list" = "You're on the waiting list!";
+"queue_position_start" = "Your number is";
+"queue_position_middle" = "out of";
+"try_app_first" = "Want to try the app before everyone else?";
+"move_up_list" = "Available for a limited number of users. Increase your chances by inviting as many people as possible!";
+"share_app" = "Share the App";
+"Choose-Your-Custom-Link" = "Choose Your Custom Link";
+"Pick-a-unique-username-to-generate-your-personal-link" = "Pick a unique username to generate your personal link";
+"Enter-your-link-name" = "Enter your link name";
+"logout" = "logout";
+"Done" = "Done";
+"Full Name" = "Full Name";
+"Passkey" = "Passkey";
+"Already have an account? Log In" = "Already have an account? Log In";
+"Login" = "Login";
+"Don't have an account? Sign Up" = "Don't have an account? Sign Up";
+"Enter OTP" = "Enter OTP";
+"Verify" = "Verify";
+"OnboardingTitle1" = "All Your Bank Accounts in One Place";
+"OnboardingDescription1" = " Link all your bank accounts in a single platform—no more switching between multiple apps";
+"OnboardingTitle2" = "Fast Transactions";
+"OnboardingDescription2" = "Send and receive payments instantly with just a few taps.";
+"OnboardingTitle3" = "Payment Just Got Social";
+"OnboardingDescription3" = "Comment, engage, and share every transaction in a unique social experience";
+"Select" = "Select";
+"Taken" = "Taken";
+"Home" = "Home";
+"Activity" = "Activity";
+"Profile" = "Profile";
+"Passkey" = "Passkey";
+
+"Name" = "Name";
+"Email" = "Email";
+"Phone Number" = "Phone Number";
+"Save" = "Save";
+"Saved" = "Saved";
+"OK" = "OK";
+"Welcome" = "Welcome";
+"Link Shared" = "Link Shared";
+"Here you can track how many times you've shared your link and view your recent actions" = "Here you can track how many times you've shared your link and view your recent actions";
+"You shared link" = "You shared link";

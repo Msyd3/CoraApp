@@ -1,0 +1,60 @@
+//  Localizable-ar.strings
+//  Cora App
+//
+//  Created by Mohammed Alsayed on 02/03/2025.
+//
+
+
+"Hi" = "مرحبا";
+"Change-Language" = "تغيير اللغة";
+"Sign-Up" = "تسجيل";
+"Hello" = "مرحبا";
+"waiting_list" = "أنت في قائمة الانتظار!";
+"queue_position_start" = "ترتيبك هو";
+"queue_position_middle" = "من";
+"try_app_first" = "ودك تجرب التطبيق قبل الكل؟";
+"move_up_list" = "متاح لعدد محدود، تقدر تكون في مقدمة قائمة الانتظار من خلال مشاركة التطبيق مع اكبر عدد ممكن";
+"share_app" = "مشاركة التطبيق";
+"Choose-Your-Custom-Link" = "احجز رابطك الخاص";
+"Pick-a-unique-username-to-generate-your-personal-link" = "احصل على اسم رابطك المميز الخاص بك لتحويلات اسرع";
+"Enter-your-link-name" = "احجز اسمك المميز";
+"logout" = "خروج";
+"Done" = "تم";
+"Full Name" = "الاسم الكامل";
+"Passkey" = "رمز الدخول";
+"Already have an account? Log In" = "عندك حساب؟ تسجيل الدخول";
+"Login" = "تسجيل الدخول";
+"Don't have an account? Sign Up" = "ما عندك حساب؟ سجل الآن";
+"Enter OTP" = "ادخل رمز التحقق المرسل لك";
+"Verify" = "تفعيل";
+"OnboardingTitle1" = "حساباتك البنكية في مكان واحد";
+"OnboardingDescription1" = "اربط جميع حساباتك البنكية في منصة واحدة، لا حاجة إلى التنقل بين عدة تطبيقات بعد الآن";
+"OnboardingTitle2" = "تحويلات سريعة";
+"OnboardingDescription2" = "خطوات سهلة من إضافة المستفيد بضغطة زر إلى إتمام العملية";
+"OnboardingTitle3" = "مالية صارت اجتماعية";
+"OnboardingDescription3" = "علّق، تفاعل، وشارك كل عملية مالية في تجربة تواصل اجتماعي فريدة";
+"Select" = "اختر";
+"Taken" = "محجوز";
+"Home" = "الرئيسية";
+"Activity" = "العمليات";
+"Profile" = "صفحتي";
+"Passkey" = "رمز الدخول";
+
+"Name" = "الاسم";
+"Email" = "البريد الالكتروني";
+"Phone Number" = "رقم الجوال";
+"Save" = "حفظ";
+"Saved" = "تم الحفظ";
+"OK" = "تم";
+"Welcome" = "مرحبا";
+"Link Shared" = "مشاركة التطبيق";
+"Here you can track how many times you've shared your link and view your recent actions" = "في هذه الصفحة تستطيع مشاهدة عدد مرات مشاركتك لرابط التطبيق والعمليات الاخيرة";
+"You shared link" = "مشاركة رابط التطبيق";
+"Fast Transaction" = "تحويل سريع";
+"Add Transaction" = "اضافة عملية";
+"Send" = "تحويل";
+"Amount" = "المبلغ";
+"From" = "من حساب";
+"Select Contact" = "اختر المستفيد";
+"Select Account" = "اختر الحساب";
+"To" = "الى حساب";

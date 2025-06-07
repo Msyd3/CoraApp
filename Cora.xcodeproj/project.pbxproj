@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		701A525B2DE7296800E02BCC /* MoyasarSdk in Frameworks */ = {isa = PBXBuildFile; productRef = 701A525A2DE7296800E02BCC /* MoyasarSdk */; settings = {ATTRIBUTES = (Required, ); }; };
+		70344F9F2DD5F62F0099A6E0 /* Cora-App-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70344F9E2DD5F62F0099A6E0 /* Cora-App-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70F638B72D2D4C3600068C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F6389E2D2D4C3400068C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F638A52D2D4C3400068C1A;
+			remoteInfo = "Cora App";
+		};
+		70F638C12D2D4C3600068C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F6389E2D2D4C3400068C1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F638A52D2D4C3400068C1A;
+			remoteInfo = "Cora App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		703450842DD6C0B00099A6E0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B3E3FF2D581351004C1EF1 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7013F0B92DE48BEA00139033 /* Cora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Cora.app; path = "/Users/mohammedalsayed/Desktop/Cora App/build/Debug-iphoneos/Cora.app"; sourceTree = "<absolute>"; };
+		7013F0BA2DE48BEA00139033 /* CoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CoraTests.xctest; path = "/Users/mohammedalsayed/Desktop/Cora App/build/Debug-iphoneos/Cora.app/PlugIns/CoraTests.xctest"; sourceTree = "<absolute>"; };
+		7013F0BB2DE48BEA00139033 /* CoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CoraUITests.xctest; path = "/Users/mohammedalsayed/Desktop/Cora App/build/Debug-iphoneos/CoraUITests-Runner.app/PlugIns/CoraUITests.xctest"; sourceTree = "<absolute>"; };
+		70344F9E2DD5F62F0099A6E0 /* Cora-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cora-App-Info.plist"; sourceTree = "<group>"; };
+		703450852DD6C34A0099A6E0 /* Cora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cora.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		70F638A82D2D4C3400068C1A /* Cora App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Cora App";
+			sourceTree = "<group>";
+		};
+		70F638B92D2D4C3600068C1A /* Cora AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Cora AppTests";
+			sourceTree = "<group>";
+		};
+		70F638C32D2D4C3600068C1A /* Cora AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Cora AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F638A32D2D4C3400068C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701A525B2DE7296800E02BCC /* MoyasarSdk in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F638B32D2D4C3600068C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F638BD2D2D4C3600068C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70F6389D2D2D4C3400068C1A = {
+			isa = PBXGroup;
+			children = (
+				703450852DD6C34A0099A6E0 /* Cora.entitlements */,
+				70344F9E2DD5F62F0099A6E0 /* Cora-App-Info.plist */,
+				70F638A82D2D4C3400068C1A /* Cora App */,
+				70F638B92D2D4C3600068C1A /* Cora AppTests */,
+				70F638C32D2D4C3600068C1A /* Cora AppUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F638A52D2D4C3400068C1A /* Cora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F638CA2D2D4C3600068C1A /* Build configuration list for PBXNativeTarget "Cora" */;
+			buildPhases = (
+				70F638A22D2D4C3400068C1A /* Sources */,
+				70F638A32D2D4C3400068C1A /* Frameworks */,
+				70F638A42D2D4C3400068C1A /* Resources */,
+				70B3E3FF2D581351004C1EF1 /* Embed App Clips */,
+				703450842DD6C0B00099A6E0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				70F638A82D2D4C3400068C1A /* Cora App */,
+			);
+			name = Cora;
+			productName = "Cora App";
+			productReference = 7013F0B92DE48BEA00139033 /* Cora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70F638B52D2D4C3600068C1A /* CoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F638CD2D2D4C3600068C1A /* Build configuration list for PBXNativeTarget "CoraTests" */;
+			buildPhases = (
+				70F638B22D2D4C3600068C1A /* Sources */,
+				70F638B32D2D4C3600068C1A /* Frameworks */,
+				70F638B42D2D4C3600068C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F638B82D2D4C3600068C1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				70F638B92D2D4C3600068C1A /* Cora AppTests */,
+			);
+			name = CoraTests;
+			productName = "Cora AppTests";
+			productReference = 7013F0BA2DE48BEA00139033 /* CoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		70F638BF2D2D4C3600068C1A /* CoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F638D02D2D4C3600068C1A /* Build configuration list for PBXNativeTarget "CoraUITests" */;
+			buildPhases = (
+				70F638BC2D2D4C3600068C1A /* Sources */,
+				70F638BD2D2D4C3600068C1A /* Frameworks */,
+				70F638BE2D2D4C3600068C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F638C22D2D4C3600068C1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				70F638C32D2D4C3600068C1A /* Cora AppUITests */,
+			);
+			name = CoraUITests;
+			productName = "Cora AppUITests";
+			productReference = 7013F0BB2DE48BEA00139033 /* CoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F6389E2D2D4C3400068C1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					70F638A52D2D4C3400068C1A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					70F638B52D2D4C3600068C1A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 70F638A52D2D4C3400068C1A;
+					};
+					70F638BF2D2D4C3600068C1A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 70F638A52D2D4C3400068C1A;
+					};
+				};
+			};
+			buildConfigurationList = 70F638A12D2D4C3400068C1A /* Build configuration list for PBXProject "Cora" */;
+			developmentRegion = ar;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ar,
+				en,
+			);
+			mainGroup = 70F6389D2D2D4C3400068C1A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				701A52592DE7296800E02BCC /* XCRemoteSwiftPackageReference "moyasar-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 70F6389D2D2D4C3400068C1A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F638A52D2D4C3400068C1A /* Cora */,
+				70F638B52D2D4C3600068C1A /* CoraTests */,
+				70F638BF2D2D4C3600068C1A /* CoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F638A42D2D4C3400068C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70344F9F2DD5F62F0099A6E0 /* Cora-App-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F638B42D2D4C3600068C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F638BE2D2D4C3600068C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F638A22D2D4C3400068C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F638B22D2D4C3600068C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F638BC2D2D4C3600068C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70F638B82D2D4C3600068C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F638A52D2D4C3400068C1A /* Cora */;
+			targetProxy = 70F638B72D2D4C3600068C1A /* PBXContainerItemProxy */;
+		};
+		70F638C22D2D4C3600068C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F638A52D2D4C3400068C1A /* Cora */;
+			targetProxy = 70F638C12D2D4C3600068C1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		70F638C82D2D4C3600068C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		70F638C92D2D4C3600068C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_PREPROCESS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70F638CB2D2D4C3600068C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cora.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cora App/Preview Content\"";
+				DEVELOPMENT_TEAM = DA42MCR9GG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cora-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Cora;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moalsayyed.Cora-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		70F638CC2D2D4C3600068C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cora.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cora App/Preview Content\"";
+				DEVELOPMENT_TEAM = DA42MCR9GG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cora-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Cora;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_PREPROCESS = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moalsayyed.Cora-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		70F638CE2D2D4C3600068C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moalsayyed.Cora-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cora";
+			};
+			name = Debug;
+		};
+		70F638CF2D2D4C3600068C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moalsayyed.Cora-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cora";
+			};
+			name = Release;
+		};
+		70F638D12D2D4C3600068C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moalsayyed.Cora-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Cora App";
+			};
+			name = Debug;
+		};
+		70F638D22D2D4C3600068C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moalsayyed.Cora-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Cora App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F638A12D2D4C3400068C1A /* Build configuration list for PBXProject "Cora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F638C82D2D4C3600068C1A /* Debug */,
+				70F638C92D2D4C3600068C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F638CA2D2D4C3600068C1A /* Build configuration list for PBXNativeTarget "Cora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F638CB2D2D4C3600068C1A /* Debug */,
+				70F638CC2D2D4C3600068C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F638CD2D2D4C3600068C1A /* Build configuration list for PBXNativeTarget "CoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F638CE2D2D4C3600068C1A /* Debug */,
+				70F638CF2D2D4C3600068C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F638D02D2D4C3600068C1A /* Build configuration list for PBXNativeTarget "CoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F638D12D2D4C3600068C1A /* Debug */,
+				70F638D22D2D4C3600068C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		701A52592DE7296800E02BCC /* XCRemoteSwiftPackageReference "moyasar-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/moyasar/moyasar-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		701A525A2DE7296800E02BCC /* MoyasarSdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 701A52592DE7296800E02BCC /* XCRemoteSwiftPackageReference "moyasar-ios-sdk" */;
+			productName = MoyasarSdk;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 70F6389E2D2D4C3400068C1A /* Project object */;
+}
